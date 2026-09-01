@@ -1,15 +1,52 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Logs
+*.log
+
+# Local Android configuration
 local.properties
+
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+*.hprof
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Kotlin
+*.class
+*.jar
+*.dex
+*.ap_
+
+# Signing keystores — never commit these!
+*.jks
+*.keystore
+*.p12
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Navigation SafeArgs generated sources
+**/generated/
+
+# Lint
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/tmp/
+
+# Profiling / benchmarking
+*.trace
